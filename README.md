@@ -70,5 +70,5 @@ streamlit run app.py
 
 ## Author
 
-Built by Benjamin Kadiri** — a personal project exploring end-to-end ML deployment, from raw data to a live public app.
+Built by **Benjamin Kadiri** — a personal project exploring end-to-end ML deployment, from raw data to a live public app.
 
