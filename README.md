@@ -17,6 +17,12 @@ Real estate pricing in Lagos varies enormously by location, property type, and s
 - Classifies predictions into Budget, Mid-Range, or Luxury categories
 - Simple, interactive UI — no technical knowledge needed to use it
 
+## Dataset
+
+The underlying data was collected via custom web scraping across two major Nigerian property platforms, then cleaned and structured into a public dataset — including resolving currency mix-ups, standardizing property categories, and handling extreme outliers.
+
+📊 **[Nigerian Real Estate Rental Market Dataset (Kaggle)](https://www.kaggle.com/datasets/ibenjamean/real-estate-rental-market-dataset-2026)**
+
 ## Tech Stack
 
 | Layer | Tools |
@@ -41,8 +47,8 @@ Real estate pricing in Lagos varies enormously by location, property type, and s
 ├── house_price_model.pkl           # Trained model pipeline (preprocessing + Random Forest)
 ├── requirements.txt                # Python dependencies
 ├── modeling.ipynb                  # Model development and evaluation
-├── Lagos_Properties.ipynb          # Web scraping, Data cleaning & Preprocessing, Feature Engineering, and exploratory analysis
-└── Datasets/                       # Raw, cleaned, and combined property listing data
+├── Lagos_Properties.ipynb          # Data cleaning and exploratory analysis
+└── Datasets/                       # Raw and cleaned property listing data
 ```
 
 ## Running Locally
@@ -70,5 +76,5 @@ streamlit run app.py
 
 ## Author
 
-Built by **Benjamin Kadiri** — a personal project exploring end-to-end ML deployment, from raw data to a live public app.
-
+**Benjamin Kadiri**
+A personal project exploring end-to-end machine learning deployment — from raw scraped data to a live public app.
