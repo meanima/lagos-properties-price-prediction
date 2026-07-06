@@ -32,6 +32,7 @@ bedrooms = st.slider('No. of Bedrooms', 0, 10, 1)
 bathrooms = st.slider('No. of Bathrooms', 0, 10, 1)
 
 if st.button("Predict Price"):
+
   input_data = pd.DataFrame(
     {
       'Property Type': [property_type],
