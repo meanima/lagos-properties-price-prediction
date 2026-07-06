@@ -19,7 +19,7 @@ Real estate pricing in Lagos varies enormously by location, property type, and s
 
 ## Dataset
 
-The underlying data was collected via custom web scraping across two major Nigerian property platforms, then cleaned and structured into a public dataset — including resolving currency mix-ups, standardizing property categories, and handling extreme outliers.
+The underlying data was collected via custom web scraping across two major Nigerian property platforms, then cleaned and structured into a public dataset available on **Kaggle** via the link below, including resolving currency mix-ups, standardizing property categories, and handling extreme outliers.
 
 📊 **[Nigerian Real Estate Rental Market Dataset (Kaggle)](https://www.kaggle.com/datasets/ibenjamean/real-estate-rental-market-dataset-2026)**
 
@@ -27,8 +27,8 @@ The underlying data was collected via custom web scraping across two major Niger
 
 | Layer | Tools |
 |---|---|
-| Data cleaning & analysis | pandas, NumPy |
-| Modeling | scikit-learn (Pipeline, OneHotEncoder, RandomForestRegressor) |
+| Data cleaning & analysis | Pandas, NumPy |
+| Modeling | Scikit-learn (Pipeline, OneHotEncoder, RandomForestRegressor) |
 | Model serialization | joblib |
 | Web interface | Streamlit |
 | Deployment | Streamlit Community Cloud |
@@ -76,5 +76,6 @@ streamlit run app.py
 
 ## Author
 
-**Benjamin Kadiri**
+### Benjamin Kadiri
+
 A personal project exploring end-to-end machine learning deployment — from raw scraped data to a live public app.
